@@ -31,12 +31,12 @@ Check the add-on log on first start — if `device` is not set it will list all 
 
 Use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages:
 
-| Prefix | Effect |
-|--------|--------|
-| `feat:` | bumps minor version |
-| `fix:` | bumps patch version |
-| `chore:`, `docs:`, `refactor:` | no version bump |
-| `feat!:` or `BREAKING CHANGE:` | bumps major version |
+| Prefix | Before 1.0.0 | From 1.0.0 |
+|--------|-------------|------------|
+| `fix:` | patch bump (0.1.0 → 0.1.1) | patch bump (1.0.0 → 1.0.1) |
+| `feat:` | minor bump (0.1.0 → 0.2.0) | minor bump (1.0.0 → 1.1.0) |
+| `feat!:` / `BREAKING CHANGE:` | minor bump (0.1.0 → 0.2.0) | major bump (1.0.0 → 2.0.0) |
+| `chore:`, `docs:`, `refactor:` | no version bump | no version bump |
 
 ## Attribution
 
