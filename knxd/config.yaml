@@ -1,8 +1,8 @@
-name: "KNXD daemon"
-version: "0.1.0"
+name: KNXD daemon
+version: 0.2.0
 slug: knxd
-description: "KNXnet/IP tunneling gateway via TPUART or USB bus adapters"
-url: "https://github.com/strieflinger/ha-addon-knxd"
+description: KNXnet/IP tunneling gateway via TPUART or USB bus adapters
+url: https://github.com/strieflinger/ha-addon-knxd
 image: ghcr.io/strieflinger/{arch}-addon-knxd
 startup: services
 arch:
@@ -14,11 +14,11 @@ boot: auto
 init: false
 uart: true
 options:
-  address: "7.0.100"
-  client_address: "7.0.200:10"
-  interface: "tpuart"
-  device: ""
-  custom_config: ""
+  address: 7.0.100
+  client_address: 7.0.200:10
+  interface: tpuart
+  device: ''
+  custom_config: ''
 schema:
   address: str
   client_address: str?
