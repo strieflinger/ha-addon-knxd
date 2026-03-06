@@ -1,0 +1,11 @@
+{
+  "release-type": "simple",
+  "bump-minor-pre-major": true,
+  "extra-files": [
+    {
+      "type": "yaml",
+      "path": "knxd/config.yaml",
+      "jsonpath": "$.version"
+    }
+  ]
+}
