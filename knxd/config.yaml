@@ -1,5 +1,5 @@
 name: "KNXD daemon"
-version: "1.0.0"
+version: "0.1.0"
 slug: knxd
 description: "KNXnet/IP tunneling gateway via TPUART or USB bus adapters"
 url: "https://github.com/strieflinger/ha-addon-knxd"
