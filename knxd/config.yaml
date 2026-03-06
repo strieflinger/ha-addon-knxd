@@ -3,6 +3,7 @@ version: "1.0.0"
 slug: knxd
 description: "KNXnet/IP tunneling gateway via TPUART or USB bus adapters"
 url: "https://github.com/strieflinger/ha-addon-knxd"
+image: ghcr.io/strieflinger/{arch}-addon-knxd
 startup: services
 arch:
   - aarch64

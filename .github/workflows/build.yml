@@ -6,7 +6,6 @@ on:
       - published
 
 env:
-  REGISTRY: ghcr.io
   IMAGE_PREFIX: ghcr.io/strieflinger
 
 jobs:
